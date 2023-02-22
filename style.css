@@ -122,10 +122,18 @@ button:hover {
 	padding-bottom: 5px;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 400px) {
 	.calculator {
 		height: 60vh;
 		min-width: 250px;
-		max-width: 2500px;
+		max-width: 250px;
+	}
+}
+
+@media (min-width: 576px) {
+	.calculator {
+		height: 60vh;
+		min-width: 300px;
+		max-width: 300px;
 	}
 }
