@@ -152,7 +152,23 @@ button:hover {
 	}
 } */
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
+	.calculator {
+		height: 60vh;
+		min-width: 230px;
+		max-width: 230px;
+	}
+	.calculator-history {
+		height: 60vh;
+		width: 100px;
+		margin: 5px;
+		font-size: 10px;
+	}
+	.history-btn {
+		font-size: 10px;
+	}
+} */
+@media (max-width: 768px) {
 	.calculator {
 		height: 60vh;
 		min-width: 230px;
