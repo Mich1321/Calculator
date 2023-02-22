@@ -128,12 +128,22 @@ button:hover {
 		min-width: 250px;
 		max-width: 250px;
 	}
+    .calculator-history {
+		height: 60vh;
+		width: 110px;
+        margin: 10px;
+	}
 }
+
 
 @media (min-width: 576px) {
 	.calculator {
 		height: 60vh;
 		min-width: 300px;
 		max-width: 300px;
+	}
+	.calculator-history {
+		height: 60vh;
+		width: 100px;
 	}
 }
